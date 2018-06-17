@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang = "en" xmlns:th = "http://www.thymeleaf.org">
+
+	<head>
+		<meta charset="ISO-8859-1"/>
+		<title th:text="#{product.page.title}">Product Page Title</title>
+		<link   th:href="@{/css/bootstrap-3.3.4-dist/css/bootstrap.min.css}" rel="stylesheet" media="screen"/>
+		<script th:src ="@{/js/jquery-2.1.4.min.js}" type="text/javascript"></script>
+		<link   th:href="@{/css/main.css}" rel="stylesheet" media="screen"/>
+	</head>
+
+	<body>
+		<div class="container">
+		
+		    <div class="row">
+		        <div class="col-md-12">
+					<h2 th:text="'Search Results for ' + ${searchResults.searchString}">Search Results for</h2>
+				</div>
+			</div>
+		    
+		    <div class="row">
+		        <div class="form-group">
+		            <span>State Capital:&nbsp;</span>
+		            <span th:text="(${searchResults.state != null} ? (${searchResults.state.capital != null} ? ${searchResults.state.capital} : '') : '') "></span>
+		        </div>
+			</div>
+			
+	        <div class="row">
+		        <div class="form-group">
+	        		<span>State Largest City:&nbsp;</span>
+	        		<span th:text="(${searchResults.state != null} ? (${searchResults.state.largest_city != null} ? ${searchResults.state.largest_city} : '') : '')"></span>
+	        	</div>
+	        </div>
+	        
+	        <div>
+	        	<a href="/index">Submit another search</a>
+	        </div>
+		    
+		</div>
+	</body>
+	
+</html>

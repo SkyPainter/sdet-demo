@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" name="Failed suite [TngDemoAppChromeTestSuite]" parallel="tests">
+  <test name="TngChromeSdetTest(failed)" parallel="tests">
+    <parameter name="webDriverName" value="edge"/>
+    <classes>
+      <class name="com.hcg.TngSdetUiTest">
+        <methods>
+          <include name="springTestContextBeforeTestClass"/>
+          <include name="springTestContextPrepareTestInstance"/>
+          <include name="springTestContextAfterTestClass"/>
+          <include name="testUserInterface" invocation-numbers="0"/>
+          <include name="springTestContextBeforeTestMethod"/>
+          <include name="loadWebApplication"/>
+          <include name="deleteAllCookies"/>
+          <include name="suiteTearDown"/>
+          <include name="setupWebDriver"/>
+          <include name="springTestContextAfterTestMethod"/>
+        </methods>
+      </class> <!-- com.hcg.TngSdetUiTest -->
+    </classes>
+  </test> <!-- TngChromeSdetTest(failed) -->
+</suite> <!-- Failed suite [TngDemoAppChromeTestSuite] -->

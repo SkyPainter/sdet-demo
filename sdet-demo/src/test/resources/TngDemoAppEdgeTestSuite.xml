@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TngDemoAppEdgeTestSuite" thread-count="1" parallel="tests">
+	
+	
+	<test name="TngEdgeSdetTest">
+		<parameter name="webDriverName" value="edge" />
+		<classes>
+			<class name="com.hcg.TngSdetUiTest" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TngDemoAppRestApiTestSuite" thread-count="1" parallel="tests">
+	
+	<test name="TngSdetRestApiTest">
+		<classes>
+			<class name="com.hcg.TngSdetRestApiTest" />
+		</classes>
+	</test>
+	
+</suite>

@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TngDemoAppFirefoxTestSuite" thread-count="1" parallel="tests">
+	
+	
+	<test name="TngFirefoxSdetTest">
+		<parameter name="webDriverName" value="firefox" />
+		<classes>
+			<class name="com.hcg.TngSdetUiTest" />
+		</classes>
+	</test>
+	
+</suite>

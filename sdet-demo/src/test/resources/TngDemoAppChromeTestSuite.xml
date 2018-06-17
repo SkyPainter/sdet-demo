@@ -1,0 +1,13 @@
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+
+<suite name="TngDemoAppChromeTestSuite" thread-count="1" parallel="tests">
+	
+	
+	<test name="TngChromeSdetTest">
+		<parameter name="webDriverName" value="chrome" />
+		<classes>
+			<class name="com.hcg.TngSdetUiTest" />
+		</classes>
+	</test>
+	
+</suite>

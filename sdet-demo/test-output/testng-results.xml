@@ -1,0 +1,262 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TngAllDemoAppTestSuite" duration-ms="10762" started-at="2018-06-16T05:04:33Z" finished-at="2018-06-16T05:04:44Z">
+    <groups>
+    </groups>
+    <test name="TngSdetRestApiTest" duration-ms="3276" started-at="2018-06-16T05:04:33Z" finished-at="2018-06-16T05:04:36Z">
+      <class name="com.hcg.TngSdetRestApiTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="11" started-at="2018-06-15T22:04:33Z" finished-at="2018-06-15T22:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3093" started-at="2018-06-15T22:04:33Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setupWebDriver()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="setupWebDriver" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWebDriver -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetRestApiTest.testRestAPI()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testRestAPI()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="testRestAPI" duration-ms="146" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testRestAPI -->
+        <test-method status="PASS" signature="loadWebApplication()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="loadWebApplication" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadWebApplication -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetRestApiTest.testRestAPI()]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="suiteTearDown" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.hcg.TngSdetRestApiTest@560348e6]" name="deleteAllCookies" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+      </class> <!-- com.hcg.TngSdetRestApiTest -->
+    </test> <!-- TngSdetRestApiTest -->
+    <test name="TngEdgeSdetUiTest" duration-ms="7086" started-at="2018-06-16T05:04:36Z" finished-at="2018-06-16T05:04:43Z">
+      <class name="com.hcg.TngSdetUiTest">
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetUiTest.testUserInterface(java.lang.String) throws java.lang.InterruptedException,java.lang.IllegalArgumentException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="setupWebDriver()[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="setupWebDriver" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWebDriver -->
+        <test-method status="PASS" signature="loadWebApplication()[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="loadWebApplication" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadWebApplication -->
+        <test-method status="PASS" signature="testUserInterface(java.lang.String)[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="testUserInterface" duration-ms="6603" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInterface -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="deleteAllCookies" is-config="true" duration-ms="5" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetUiTest.testUserInterface(java.lang.String) throws java.lang.InterruptedException,java.lang.IllegalArgumentException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="suiteTearDown" is-config="true" duration-ms="472" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.hcg.TngSdetUiTest@1f81aa00]" name="springTestContextAfterTestClass" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.hcg.TngSdetUiTest -->
+    </test> <!-- TngEdgeSdetUiTest -->
+    <test name="TngChromeSdetUiTest" duration-ms="10459" started-at="2018-06-16T05:04:33Z" finished-at="2018-06-16T05:04:43Z">
+      <class name="com.hcg.TngSdetUiTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="11" started-at="2018-06-15T22:04:33Z" finished-at="2018-06-15T22:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3093" started-at="2018-06-15T22:04:33Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setupWebDriver()[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="setupWebDriver" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWebDriver -->
+        <test-method status="PASS" signature="loadWebApplication()[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="loadWebApplication" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadWebApplication -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetUiTest.testUserInterface(java.lang.String) throws java.lang.InterruptedException,java.lang.IllegalArgumentException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="testUserInterface(java.lang.String)[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="testUserInterface" duration-ms="7270" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInterface -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="deleteAllCookies" is-config="true" duration-ms="9" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetUiTest.testUserInterface(java.lang.String) throws java.lang.InterruptedException,java.lang.IllegalArgumentException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="suiteTearDown" is-config="true" duration-ms="51" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.hcg.TngSdetUiTest@329dbdbf]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.hcg.TngSdetUiTest -->
+    </test> <!-- TngChromeSdetUiTest -->
+    <test name="TngFirefoxSdetUiTest" duration-ms="10762" started-at="2018-06-16T05:04:33Z" finished-at="2018-06-16T05:04:44Z">
+      <class name="com.hcg.TngSdetUiTest">
+        <test-method status="PASS" signature="springTestContextBeforeTestClass()[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="springTestContextBeforeTestClass" is-config="true" duration-ms="11" started-at="2018-06-15T22:04:33Z" finished-at="2018-06-15T22:04:33Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestClass -->
+        <test-method status="PASS" signature="springTestContextPrepareTestInstance()[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="springTestContextPrepareTestInstance" is-config="true" duration-ms="3093" started-at="2018-06-15T22:04:33Z" depends-on-methods="org.springframework.test.context.testng.AbstractTestNGSpringContextTests.springTestContextBeforeTestClass" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextPrepareTestInstance -->
+        <test-method status="PASS" signature="setupWebDriver()[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="setupWebDriver" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setupWebDriver -->
+        <test-method status="PASS" signature="springTestContextBeforeTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="springTestContextBeforeTestMethod" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetUiTest.testUserInterface(java.lang.String) throws java.lang.InterruptedException,java.lang.IllegalArgumentException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextBeforeTestMethod -->
+        <test-method status="PASS" signature="loadWebApplication()[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="loadWebApplication" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loadWebApplication -->
+        <test-method status="PASS" signature="testUserInterface(java.lang.String)[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="testUserInterface" duration-ms="6828" started-at="2018-06-15T22:04:36Z" finished-at="2018-06-15T22:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[firefox]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserInterface -->
+        <test-method status="PASS" signature="deleteAllCookies()[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="deleteAllCookies" is-config="true" duration-ms="6" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deleteAllCookies -->
+        <test-method status="PASS" signature="springTestContextAfterTestMethod(java.lang.reflect.Method)[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="springTestContextAfterTestMethod" is-config="true" duration-ms="1" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:43Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[public void com.hcg.TngSdetUiTest.testUserInterface(java.lang.String) throws java.lang.InterruptedException,java.lang.IllegalArgumentException]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestMethod -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="suiteTearDown" is-config="true" duration-ms="798" started-at="2018-06-15T22:04:43Z" finished-at="2018-06-15T22:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+        <test-method status="PASS" signature="springTestContextAfterTestClass()[pri:0, instance:com.hcg.TngSdetUiTest@62833051]" name="springTestContextAfterTestClass" is-config="true" duration-ms="0" started-at="2018-06-15T22:04:44Z" finished-at="2018-06-15T22:04:44Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- springTestContextAfterTestClass -->
+      </class> <!-- com.hcg.TngSdetUiTest -->
+    </test> <!-- TngFirefoxSdetUiTest -->
+  </suite> <!-- TngAllDemoAppTestSuite -->
+</testng-results>
