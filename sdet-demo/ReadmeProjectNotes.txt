@@ -1,3 +1,17 @@
+
+SDET Example Project.
+
+Objectives: 
+
+1. Write a simple Java SpringBoot/Thymeleaf Web Application.
+2. Test the Web Application by writing an example test framework that 
+   will concurrently test the web front end on Chrome, Firefox and Edge browsers.
+   UI Test Cases must follow the principles of the Page Object Model
+   design pattern.
+3. Write a test case that exercise a REST API.
+4. Generate a report of the test cases that succeeded and failed
+
+
 This is a Maven, TestNG, Selenium 3, Apache POI, Java 1.8 and 
 Spring Boot STS-3.9.3 IDE Project running on Windows 10.
 
